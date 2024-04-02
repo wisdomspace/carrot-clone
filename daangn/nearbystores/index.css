@@ -5,3 +5,86 @@
 *, *::before, *::after {
   box-sizing: border-box;
 }
+
+html, body, #next, .all {
+  width: 100%;
+  height: 2600px;
+  /*overflow: hidden;*/
+}
+
+.headerSpace {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  height: 64px;
+  background-color: white;
+}
+
+.headerDetailSpace1 {
+  max-width: 1200px;
+  height: 64px;
+  padding: 12px 20px;
+  margin: 0px auto;
+  align-content: center;
+}
+
+#next2, .all2, {
+  height: 2600px;
+  width: 100%;
+}
+
+.mainSpace {
+  height: 2003px;
+  width: 100%;
+  padding: 64px 0px 0px 0px;
+  margin: 0px 0px 74px 0px;
+}
+
+.mainTopSpace {
+  height: 315px;
+  background-color: #f7f1eb;
+  overflow: hidden;
+}
+
+.mainMiddleSpace {
+  max-width: 800px;
+  height: 1562px;
+  margin: 64px auto 74px auto;
+  padding: 0px 16px;
+  align-content: center;
+  background-color: rgba(221, 255, 255, 0.66);
+}
+
+.footerSpace {
+  height: 533px;
+  border-top: 1px solid #eaebee;
+}
+
+.mainTopDetailSpace {
+  width: 768px;
+  height: 315px;
+  padding: 50px 0 0 0;
+  margin: 0 auto;
+  align-content: center;
+  overflow: hidden;
+}
+
+@-webkit-keyframes fadein {
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
+.bannerImage {
+  width: auto;
+  height: 260px;
+  vertical-align: bottom;
+  display: block;
+  object-fit: cover;
+  margin: 5px 0 0 315.45px;
+  -webkit-animation: fadein 0.4s cubic-bezier(0.4, 0, 0.2, 1) 0.4s forwards;
+}
