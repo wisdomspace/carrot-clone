@@ -1,5 +1,7 @@
 * {
   margin: 0; padding: 0;
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Noto Sans', sans-serif;
 }
 
 *, *::before, *::after {
@@ -28,11 +30,6 @@ html, body, #next, .all {
   padding: 12px 20px;
   margin: 0px auto;
   align-content: center;
-}
-
-#next2, .all2, {
-  height: 2600px;
-  width: 100%;
 }
 
 .mainSpace {
@@ -69,6 +66,7 @@ html, body, #next, .all {
   margin: 0 auto;
   align-content: center;
   overflow: hidden;
+  position: relative;
 }
 
 @-webkit-keyframes fadein {
@@ -79,12 +77,41 @@ html, body, #next, .all {
     opacity: 1;
   }
 }
+
+.bannerSpace {
+  display: flex;
+  position: absolute;
+  left: 316px;
+  bottom: 0px;
+}
+
 .bannerImage {
   width: auto;
   height: 260px;
   vertical-align: bottom;
   display: block;
   object-fit: cover;
-  margin: 5px 0 0 315.45px;
   -webkit-animation: fadein 0.4s cubic-bezier(0.4, 0, 0.2, 1) 0.4s forwards;
+}
+
+.mainLetter {
+  position: absolute;
+  top: 50px;
+  bottom: 0;
+  font: bold 2rem 'Noto Sans', sans-serif;
+  line-height: 48px;
+  word-spacing: -3px;
+  letter-spacing: -0.2px;
+  color: #212124;
+}
+
+.mainLetter #br1 {
+  font-size: 4rem;
+}
+
+.subLetter {
+  display: block;
+  font-size: 1.125rem;
+  word-spacing: -1.5px;
+  letter-spacing: -0.15px;
 }
