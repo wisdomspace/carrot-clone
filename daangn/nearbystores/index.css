@@ -25,11 +25,28 @@ html, body, #next, .all {
 }
 
 .headerDetailSpace1 {
+  display: flex;
   max-width: 1200px;
   height: 64px;
   padding: 12px 20px;
   margin: 0px auto;
   align-content: center;
+}
+
+.carrotLogo {
+  width: 65px;
+  margin-right: 36px;
+}
+
+.carrotLogo span {
+  flex-grow: 1;
+}
+
+.menuSpace {
+  display:flex;
+  width: 683px;
+  height: 23.75px;
+  align-items: center;
 }
 
 .mainSpace {
