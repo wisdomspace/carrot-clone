@@ -30,7 +30,7 @@ html, body, #next, .all {
   height: 64px;
   padding: 12px 20px;
   margin: 0px auto;
-  align-content: center;
+  align-items: center;
 }
 
 .carrotLogo {
@@ -44,11 +44,54 @@ html, body, #next, .all {
 
 .menuSpace {
   display:flex;
-  width: 683px;
+  width: 661px;
   height: 23.75px;
+  padding: 0 40px 0 0;
   align-items: center;
 }
 
+.menuValue {
+  width: 500px;
+  height: 23.75px;
+  list-style-type: none;
+}
+
+.menuValue li {
+  display: inline-block;
+}
+
+.menuValue li a {
+  font: bold 1.125rem 'Noto Sans', 'sans-serif';
+  text-decoration: none;
+  color: #4d5159;
+}
+
+.fleamarket {
+  width: 102px;
+}
+
+.nearbystores {
+  width: 102px;
+}
+
+.jobs {
+  width: 66px;
+}
+
+.realty {
+  width: 84px;
+}
+
+.car {
+  width: 120px;
+}
+
+.searchSpace {
+  width: 400px;
+  height: 40px;
+  background-color: #f2f3f6;
+  border-radius: 6px 6px 6px 6px;
+}
 .mainSpace {
   height: 2003px;
   width: 100%;
