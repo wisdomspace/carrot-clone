@@ -517,9 +517,16 @@ html, body, #next, .all {
 .review-menu-compact {
   width: 376px;
   height: 215px;
-  padding: 20px 16px;
+  padding: 21px 16px;
   border: 1px solid #eaebee;
   border-radius: 6px;
+  -webkit-transition: background-color 0.15s ease 0s;
+  overflow: hidden;
+}
+
+.review-menu-compact:hover {
+  cursor: pointer;
+  background-color: rgba(242, 243, 245, 0.85);
 }
 
 .review-user-space {
@@ -544,6 +551,111 @@ html, body, #next, .all {
   object-fit: cover;
 }
 
+.review-user-information-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 306px;
+  height: 41px;
+  padding: 0 0 0 10px;
+}
+
+.review-user-main-information {
+  display: flex;
+  width: 296px;
+  height: 24px;
+  align-items: center;
+}
+
+.review-user-nickname {
+  font-weight: bold;
+  color: #212124;
+}
+
+.review-user-badge-wrapper {
+  width: 32px;
+  margin: 0 0 0 4px;
+}
+
+.review-user-badge {
+  width: 32px;
+  color: white;
+  font-weight: bold;
+  font-size: 0.75rem;
+  background-color: #ff6f0f;
+  padding: 2px 4px;
+  border-radius: 100px;
+}
+
+.review-user-sub-information {
+  line-height: 22px;
+  font-size: 13px;
+  color: #868b94;
+  word-spacing: -1px;
+}
+
+.review-letter {
+  display: -webkit-box;
+  width: 342px;
+  color: #212124;
+  overflow: hidden;
+  word-break: break-all;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  text-overflow: ellipsis;
+  margin: 8px 0 0 0;
+  word-spacing: -1px;
+  letter-spacing: -0.2px;
+  line-height: 140%;
+}
+
+.review-target-space {
+  height: 64px;
+  margin: 16px 0 0 0;
+  background-color: white;
+}
+
+.review-target-wrapper {
+  display: flex;
+  height: 64px;
+  align-items: center;
+  border: 1px solid #eaebee;
+  border-radius: 6px;
+}
+
+.review-target-image-wrapper {
+  display: flex;
+  width: 62px;
+  height: 62px;
+}
+
+.review-target-image {
+  width: 62px;
+  height: 62px;
+  object-fit: cover;
+  border-radius: 6px 0 0 6px;
+}
+
+.review-target-introduce-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 54px;
+  padding: 6px 16px 6px 14px;
+}
+
+.review-target-introduce-main {
+  height: 21.75px;
+  color: #212124;
+  word-spacing: -1px;
+}
+
+.review-target-introduce-sub {
+  height: 20.25px;
+  font-size: 13px;
+  color: #868b94;
+  line-height: 20px;
+  word-spacing: -1.5px;
+}
 
 
 
