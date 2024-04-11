@@ -361,16 +361,16 @@ html, body, #next, .all {
 
 .store-article-left, .store-article7 {
   display: flex;
-  width: 368px;
-  height: 147.5px;
+  /*width: 368px;*/
+  /*height: 147.5px;*/
   margin-right: 32px;
   border-bottom: rgb(235, 236, 241) 1px solid;
 }
 
 .store-article-right, .store-article8 {
   display: flex;
-  width: 368px;
-  height: 147.5px;
+  /*width: 368px;*/
+  /*height: 147.5px;*/
   border-bottom: rgb(235, 236, 241) 1px solid;
 }
 
@@ -378,11 +378,13 @@ html, body, #next, .all {
   border-bottom: none;
 }
 
+
+
 .store-article-wrapper li a {
   display: flex;
   flex-grow: 1;
-  width: 368px;
-  height: 125px;
+  /*width: 368px;*/
+  /*height: 125px;*/
   padding: 16px;
   align-items: flex-start;
   -webkit-transition: background-color 0.15s ease 0s;
