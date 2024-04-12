@@ -216,7 +216,7 @@ html, body, #next, .all {
 
 .mainLetter {
   position: absolute;
-  top: 50px;
+  top: 30px;
   bottom: 0;
   font: bold 2rem 'Noto Sans', sans-serif;
   line-height: 48px;
@@ -225,17 +225,15 @@ html, body, #next, .all {
   color: #212124;
 }
 
-.mainLetter #br1 {
-  font-size: 4rem;
-}
 
 .subLetter {
   display: block;
   font-size: 1.125rem;
   word-spacing: -1.5px;
   letter-spacing: -0.15px;
+  line-height: 135%;
+  margin: 3px 0 0 0;
 }
-
 
 
 
@@ -245,7 +243,7 @@ html, body, #next, .all {
 .mainMiddleSpace {
   max-width: 800px;
   height: 1562px;
-  margin: 64px auto 74px auto;
+  margin: 70px auto 68px auto;
   padding: 0px 16px;
   /*align-content: center;*/
   background-color: rgba(255, 255, 255, 0.66);
@@ -260,7 +258,7 @@ html, body, #next, .all {
   font-size: 2rem;
   word-spacing: -2.5px;
   padding: 0 16px 0 16px;
-  margin: 0 0 32px 0;
+  margin: 0 0 28px 0;
   height: 48px;
 }
 
@@ -268,6 +266,7 @@ html, body, #next, .all {
   display: flex;
   height: 38px;
   justify-content: center;
+  align-items: center;
 }
 
 .store-menu ul {
@@ -279,6 +278,7 @@ html, body, #next, .all {
 
 .store-menu ul li {
   display: flex;
+  align-items: center;
   list-style: none;
 }
 
@@ -325,7 +325,7 @@ html, body, #next, .all {
   background-color: #4d5159;
   color: white;
   font-size: 0.875rem;
-  padding: 8px 16px;
+  padding: 11px 16px;
   border-radius: 100px;
 }
 
@@ -336,7 +336,7 @@ html, body, #next, .all {
   background-color: #ffffff;
   color: #000000;
   font-size: 0.875rem;
-  padding: 8px 16px;
+  padding: 11px 16px;
   border-radius: 100px;
   border: 1px #eaebee solid;
   -webkit-transition: background-color 0.15s ease 0s;
@@ -797,6 +797,10 @@ html, body, #next, .all {
   margin: 8px 0 0 0;
 }
 
+.apple svg:hover, .android svg:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
 
 .footer-download-android {
   width: 147px;
@@ -866,6 +870,11 @@ html, body, #next, .all {
   padding: 4px 0 0 0;
   margin: 0 16px 0 0;
   line-height: 18.4px;
+}
+
+.footer-bottom-sns svg:hover {
+  cursor: pointer;
+  opacity: 0.6;
 }
 
 .footer-bottom-local-label-wrapper {
