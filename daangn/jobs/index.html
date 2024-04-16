@@ -1,14 +1,238 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:href="http://www.w3.org/1999/xhtml">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge; chrome=1">
+  <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/reset-css@4.0.1/reset.min.css"
+  />
+  <link rel="stylesheet" href="./index.css">
+  <title>우리 동네에서 찾는 당근 알바</title>
 </head>
+
 <body>
-<p>우상단 Run 버튼 눌러서 웹에서 확인<p>
-<p>첫줄에 ! -> tab 누르면 이 형식 그대로 나와요<p>
+<div class="header">
+  <div class="header_wrapper">
+    <a class="homeLogo" href="https://www.daangn.com/">
+        <span>
+          <svg width="65" height="36" viewBox="0 0 65 36" fill="none"
+               xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_47_13130)"><path
+              d="M9.23186 11.6511C4.1335 11.6511 0 15.6932 0 20.7962C0 27.847 9.25838 31.5884 9.23186 31.5783C9.20661 31.5884 18.4637 27.847 18.4637 20.7962C18.4637 15.6969 14.3302 11.6511 9.23186 11.6511ZM9.23186 24.4985C8.54053 24.498 7.86486 24.2924 7.2903 23.9079C6.71573 23.5233 6.26807 22.977 6.00391 22.338C5.73975 21.6991 5.67096 20.9961 5.80623 20.318C5.9415 19.6399 6.27476 19.0171 6.76388 18.5285C7.25299 18.0398 7.87599 17.7072 8.55411 17.5726C9.23223 17.438 9.93502 17.5076 10.5736 17.7725C11.2122 18.0374 11.7579 18.4857 12.1418 19.0608C12.5256 19.6359 12.7304 20.3119 12.7301 21.0034C12.731 21.4632 12.6411 21.9187 12.4656 22.3437C12.2901 22.7687 12.0325 23.1549 11.7075 23.4802C11.3825 23.8055 10.9966 24.0634 10.5718 24.2392C10.1469 24.415 9.69161 24.5053 9.23186 24.5048V24.4985Z"
+              fill="#FF6F0F"></path><path
+              d="M11.3103 0C9.15573 0 7.6554 1.50565 7.41923 3.28415C4.54738 2.4909 2.29688 4.67359 2.29688 7.07354C2.29688 8.9114 3.55978 10.3956 5.24324 10.8781C6.60087 11.2659 9.04586 10.9766 9.04586 10.9766C9.03323 10.383 9.58007 9.73118 10.4237 9.13751C12.8232 7.44996 14.6999 6.65419 14.9891 4.35276C15.2922 1.94523 13.5052 0 11.3103 0Z"
+              fill="#00A05B"></path><path
+              d="M36.7873 14.8305C34.8374 15.4431 31.4616 15.769 28.2905 15.769V11.9114H34.8399V9.03906H24.7783V18.8208C30.2808 18.8208 35.0849 18.1576 37.1132 17.5298L36.7873 14.8305Z"
+              fill="#FF6F0F"></path><path
+              d="M41.4104 7.89453H37.9033V19.1402H41.4104V15.6148H44.2393V12.5467H41.4104V7.89453Z"
+              fill="#FF6F0F"></path><path
+              d="M34.8969 19.1138C31.1814 19.1138 28.4561 21.1613 28.4561 24.1663C28.4561 27.1713 31.1839 29.2188 34.8969 29.2188C38.6098 29.2188 41.3377 27.17 41.3377 24.1663C41.3377 21.1626 38.6124 19.1138 34.8969 19.1138ZM34.8969 26.4058C33.2223 26.4058 31.9657 25.6025 31.9657 24.1613C31.9657 22.72 33.2223 21.9179 34.8969 21.9179C36.5715 21.9179 37.8281 22.7213 37.8281 24.1613C37.8281 25.6012 36.5728 26.4058 34.8969 26.4058Z"
+              fill="#FF6F0F"></path><path
+              d="M51.0698 20.6055H47.4844V28.2133H61.735V25.202H51.0698V20.6055Z"
+              fill="#FF6F0F"></path><path
+              d="M61.2902 8.83301H47.3224V11.8443H57.7692C57.7692 12.5921 57.8046 14.3706 57.4623 16.3916H44.6514V19.5065H64.1002V16.3966H60.6347C61.0995 13.8426 61.2321 11.8519 61.2902 8.83301Z"
+              fill="#FF6F0F"></path></g><defs><clipPath id="clip0_47_13130"><rect width="64.1053"
+                                                                                  height="36"
+                                                                                  fill="white"></rect></clipPath></defs></svg>
+        </span>
+    </a>
+    <nav class="navigation">
+      <ul class="navigation_wrapper">
+        <li class="navi_content">
+          <a href="https://www.daangn.com/fleamarket/">중고거래</a>
+        </li>
+        <li class="navi_content">
+          <a href="https://www.daangn.com/kr/nearby-stores/">동네업체</a>
+        </li>
+        <li class="current_navi">
+          <!--          알바 색상 다름-->
+          <a href="https://www.daangn.com/kr/jobs/">알바</a>
+        </li>
+        <li class="navi_content">
+          <a href="https://www.daangn.com/kr/realty/">부동산</a>
+        </li>
+        <li class="navi_content">
+          <a href="https://www.daangn.com/kr/car/">중고차 직거래</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="header_right_side">
+      <span>
+        <form class="search">
+          <input type="search" class="search_input" placeholder="물품이나 동네를 검색해보세요" value>
+        </form>
+      </span>
+      <span>
+        <button type="button" class="chat">채팅하기</button>
+      </span>
+    </div>
+  </div>
+</div>
+
+<div class="main">
+  <section class="banner">
+    <div class="banner_wrapper">
+      <h1 class="banner_text1">
+        우리 동네에서 찾는
+        <br>
+        당근알바
+      </h1>
+      <p class="banner_text2">
+        걸어서 10분 거리의
+        <br>
+        동네 알바들 여기 다 있어요.
+      </p>
+      <div class="post_button">
+        <button type="button">공고 올리기</button>
+      </div>
+    </div>
+    <div class="banner_image">
+      <span>
+        <img alt="banner image"
+             src="https://www.daangn.com/_next/static/media/jobs_hero_3x.b118130e.png">
+      </span>
+    </div>
+  </section>
+<!--  main content-->
+  <div class="main_contents">
+    <h2 class="popular_job">인기 당근알바</h2>
+    <div class="first_job_section">
+      <div class="job">
+        <div class="job_image">
+          <img src="src/image1.jpg"
+             alt="job image" class="image">
+        </div>
+        <a href="">
+          <div class="texts">
+          <p class="title">당근 고객센터 페이팀 모집(전환 시 100만원 지급)</p>
+          <p class="address">주식회사 당근서비스 ・ 서울특별시 구로구 구로동</p>
+          <p class="salary">월급 2,600,000</p>
+          </div>
+        </a>
+      </div>
+      <div class="job">
+        <div class="job_image">
+          <img src="src/image2.jpeg"
+             alt="job image" class="image">
+        </div>
+        <a href="">
+        <div class="texts">
+          <p class="title">스티커 포장 꿀알바 모집 주2회</p>
+          <p class="address">밤톨 ・ 광주광역시 북구 두암동</p>
+          <p class="salary">건당 200</p>
+        </div>
+        </a>
+      </div>
+      <div class="job">
+        <div class="job_image">
+          <img src="src/image3.jpeg"
+             alt="job image" class="image">
+        </div>
+        <a href="">
+          <div class="texts">
+            <p class="title">가방 끈 끼우기 알바 초보가능(가내수공업)</p>
+            <p class="address">이스코드 ・ 경상남도 김해시 삼계동</p>
+            <p class="salary">시급 10,000</p>
+          </div>
+        </a>
+      </div>
+      <div class="job">
+        <div class="job_image">
+          <img src="src/image4.jpeg"
+             alt="job image" class="image">
+        </div>
+        <a href="">
+          <div class="texts">
+            <p class="title">손빠르신 쇼핑몰 포장 알바 구해요 10명</p>
+            <p class="address">트러스트 ・ 대구광역시 달서구 두류동</p>
+            <p class="salary">시급 10,000</p>
+          </div>
+        </a>
+      </div>
+      <div class="job">
+        <div class="job_image">
+          <img src="src/image5.jpeg"
+             alt="job image" class="image">
+        </div>
+        <a href="https://dnvefa72aowie.cloudfront.net/jobs/article/32929822/1712148510745/job-post-4126544274.jpeg?q=95&s=1440x1440&t=inside">
+          <div class="texts">
+            <p class="title">르씨엘 설거지 시급</p>
+            <p class="address">르씨엘 ・ 경상북도 경주시 석장동</p>
+            <p class="salary">시급 15,000</p>
+          </div>
+        </a>
+      </div>
+      <div class="job">
+        <div class="job_image">
+          <img src="src/image6.jpeg"
+             alt="job image" class="image">
+        </div>
+        <a href="https://dnvefa72aowie.cloudfront.net/jobs/article/7425076/1712508690230/job-post-1879327271.jpeg?q=95&s=1440x1440&t=inside">
+          <div class="texts">
+            <p class="title">양재천 스냅 구인해요 ;)</p>
+            <p class="address">서울특별시 서초구 양재동</p>
+            <p class="salary">시급 10,000</p>
+          </div>
+        </a>
+      </div>
+      <div class="job">
+        <div class="job_image">
+         <img src="src/image7.jpeg"
+             alt="job image" class="image">
+        </div>
+        <a href="https://dnvefa72aowie.cloudfront.net/jobs/article/9040134/1709250258309/job-post-26281297.jpeg?q=95&s=1440x1440&t=inside">
+          <div class="texts">
+            <p class="title">(긴급)4월8일 단기알바</p>
+            <p class="address">모아에너지 ・ 광주광역시 광산구 흑석동</p>
+            <p class="salary">시급 10,000</p>
+          </div>
+        </a>
+      </div>
+      <div class="job">
+        <div class="job_image">
+         <img src="src/image8.jpeg"
+             alt="job image" class="image">
+        </div>
+        <a href="https://dnvefa72aowie.cloudfront.net/jobs/article/9106457/1712618571092/job-post-667017583.jpeg?q=95&s=1440x1440&t=inside">
+          <div class="texts">
+            <p class="title">4-5개월정도 알바 구합니다</p>
+            <p class="address">강원특별자치도 춘천시 온의동</p>
+            <p class="salary">시급 10,000</p>
+          </div>
+        </a>
+      </div>
+      <div class="job">
+        <div class="job_image">
+          <img src="src/image9.jpeg"
+             alt="job image" class="image">
+        </div>
+        <a href="https://dnvefa72aowie.cloudfront.net/jobs/article/57628432/1712305948679/job-post-4284461681.jpeg?q=95&s=1440x1440&t=inside">
+          <div class="texts">
+            <p class="title">카운터 직원</p>
+            <p class="address">가볼가호텔 ・ 전라북도 익산시 동산동</p>
+            <p class="salary">시급 10,000</p>
+          </div>
+        </a>
+      </div>
+      <div class="job">
+        <div class="job_image">
+          <img src="src/image10.jpeg"
+             alt="job image" class="image">
+        </div>
+        <a href="https://dnvefa72aowie.cloudfront.net/jobs/article/51374/1709604999382/job-post-4115210770.jpeg?q=95&s=1440x1440&t=inside">
+          <div class="texts">
+            <p class="title">신호수 알바 구인</p>
+            <p class="address">케이네트웍스 ・ 서울특별시 구로구 구로동</p>
+            <p class="salary">월급 2,100,000</p>
+          </div>
+        </a>
+      </div>
+<!-- banner -->
+    </div>
+  </div>
+</div>
+<div id="footer"></div>
 </body>
 </html>
