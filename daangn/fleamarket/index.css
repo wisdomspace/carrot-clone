@@ -412,7 +412,13 @@ section{
 }
 
 .market-cover{
+  height: 315px;
+  padding: 0 16px 0 16px;
   background-color: #FFF1AA;
+  display: block;
+  margin: 0;
+  outline: none;
+  unicode-bidi: isolate;
 }
 
 .market-cover .market-cover01{
@@ -424,20 +430,14 @@ section{
 .market-cover01{
   padding-top: 50px;
   max-width: 768px;
-  margin-top: 0px;
-  margin-right: auto;
-  margin-bottom: 0px;
-  margin-left: auto;
-  padding: 0;
-  outline: none;
-  display: block;
-  unicode-bidi: isolate;
+  margin: 0 auto;
+  
 }
 
 .main-title{
   line-height: 1.5;
   font-size: 34px;
-  letter-spacing: -0.32;
+  letter-spacing: -0.32px;
   font-weight: 700;
   padding: 0;
   margin: 0;
@@ -445,8 +445,6 @@ section{
   margin-block-start: 0.83em;
   margin-block-end: 0.83em;
   display: block;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
   unicode-bidi: isolate;
 }
 
