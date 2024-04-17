@@ -5,3 +5,1248 @@
 *, *::before, *::after {
   box-sizing: border-box;
 }
+
+a:-webkit-any-link {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.ahnabada{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-right: auto;
+  margin-bottom: 0;
+  margin-left: auto;
+  padding: 0;
+  outline: none;
+  unicode-bidi: isolate;
+}
+
+.ahnabada-top{
+  display: block;
+  padding: 0;
+  margin: 0;
+  outline: none;
+  unicode-bidi: isolate;
+}
+
+.ahnabada .ahnabada-link{
+  text-decoration: none;
+  color: #212529;
+}
+
+.ahnabada-link{
+  padding: 0;
+  padding: 0;
+  outline: none;
+  cursor: pointer;
+}
+
+.ahnabada-photo{
+  padding: 0;
+  margin: 0;
+  outline: none;
+  display: block;
+  unicode-bidi: isolate;
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  cursor: pointer;
+}
+
+.ahnabada-photo img{
+  padding: 0;
+  margin: 0;
+  outline: none;
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+
+.ahnabada-desc{
+  padding: 0;
+  margin: 0;
+  outline: none;
+  display: block;
+  unicode-bidi: isolate;
+}
+
+.ahnabada-title{
+  padding: 0;
+  margin: 0;
+  outline: none;
+  display: block;
+  unicode-bidi: isolate;
+}
+
+.ahnabada-price{
+  padding: 0;
+  margin: 0;
+  outline: none;
+  display: block;
+  unicode-bidi: isolate;
+}
+
+.ahnabada-region-name{
+  padding: 0;
+  margin: 0;
+  outline: none;
+  display: block;
+  unicode-bidi: isolate;
+}
+
+.ahnabada-counts{
+  padding: 0;
+  margin: 0;
+  outline: none;
+  display: block;
+  unicode-bidi: isolate;
+}
+
+.ahnabada-list-more{
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  outline: none;
+  display: block;
+  unicode-bidi: isolate;
+}
+
+.button{
+  margin-top: 1.6rem;
+  margin-right: 0px;
+  margin-bottom: 1.6rem;
+  margin-left: 0px;
+  font-family: inherit;
+  outline: inherit;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  padding-block: 1px;
+  padding-inline: 6px;
+}
+
+.background-gray{
+  background-color: #F8F9FA;
+}
+
+.clip-01{
+  padding: 0;
+  margin: 0;
+  outline-color: initial;
+  outline-style: none;
+  outline-width: initial;
+}
+
+div{
+  unicode-bidi: isolate;
+}
+
+footer{
+  display: block;
+  unicode-bidi: isolate;
+}
+
+.fleamarket-list{
+  padding-top: 64px;
+  padding: 0;
+  margin: 0;
+  outline: none;
+  unicode-bidi: isolate;
+}
+
+.fleamarket-list .ahnabada{
+  margin-top: 40px;
+  width: 757px;
+}
+
+.fleamarket-list .ahnabada .ahnabada-top{
+  width: 223px;
+  margin-bottom: 56px;
+}
+
+.fleamarket-list .ahnabada .ahnabada-photo{
+  width: 100%;
+  padding-top: 100%;
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  background-color: #F8F9FA;
+  box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.15);
+  box-sizing: border-box;
+}
+
+.fleamarket-list .ahnabada .ahnabada-top .ahnabada-photo img{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 12px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+  border-image-source: initial;
+  border-image-slice: initial;
+  border-image-width: initial;
+  border-image-outset: initial;
+  border-image-repeat: initial
+}
+
+.fleamarket-list .ahnabada .ahnabada-top .ahnabada-desc{
+  margin-top: 12px;
+}
+
+.fleamarket-list .ahnabada .ahnabada-top .ahnabada-desc .ahnabada-price{
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin-bottom: 4px;
+}
+
+.fleamarket-list .ahnabada .ahnabada-top .ahnabada-desc .ahnabada-region-name{
+  font-size: 13px;
+  color: #212529;
+  overflow: hidden;
+  white-space-collapse: collapse;
+  text-wrap: nowrap;
+  text-overflow: ellipsis;
+  margin-bottom: 4px;
+  line-height: 1.5;
+}
+
+.fleamarket-list .ahnabada .ahnabada-top .ahnabada-desc .ahnabada-counts{
+  color: #868e96;
+  font-size: 13px;
+}
+
+.fleamarket-list .ahnabada-list-more{
+  padding-bottom: 80px;
+}
+
+.fleamarket-list .ahnabada-list-more a{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.fleamarket-list .fleamarket-list-title{
+  font-size: 32px;
+  line-height: 43.2px;
+}
+
+.fleamarket-list-title{
+  font-weight: 700;
+  padding: 0;
+  margin: 0;
+  outline: none;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+}
+
+.input{
+  margin-top: 1.6rem;
+  margin-right: 0px;
+  margin-bottom: 1.6rem;
+  margin-left: 0px;
+  font-family: inherit;
+  text-rendering: auto;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  -webkit-rtl-ordering: logical;
+  cursor: text;
+}
+
+.input[type="search" i]{
+  padding-block: 1px;
+  padding-inline: 2px;
+}
+
+.popular-search{
+  width: 100%;
+  display: flex;
+  height: 104px;
+  padding: 0;
+  margin: 0;
+  outline: none;
+  unicode-bidi: isolate;
+}
+
+.popular-search-title{
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: -0.6px;
+  color: #212529;
+  text-align: center;
+  padding: 0;
+  outline: none;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+}
+
+.popular-search-list{
+  list-style-type: disc;
+  padding: 0;
+  outline: none;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+  unicode-bidi: isolate;
+}
+
+.popular-search-item{
+  margin-top: 1.6rem;
+  margin-bottom: 1.6rem;
+  margin-left: 1.6rem;
+  padding: 0;
+  outline: none;
+  text-align: -webkit-match-parent;
+  unicode-bidi: isolate;
+}
+
+.popular-search-link{
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  padding: 0;
+  margin: 0;
+  outline: none;
+  cursor: pointer;
+}
+
+.popular-search .popular-search-title{
+  margin-top: auto;
+  margin-right: 40px;
+  margin-bottom: auto;
+  margin-left: auto;
+}
+
+.popular-search .popular-search-list{
+  margin-top: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-left: 0px;
+}
+
+.popular-search .popular-search-list .popular-search-item{
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 1.6rem;
+}
+
+.popular-search .popular-search-list .popular-search-item .popular-search-link{
+  text-decoration: none;
+  color: #212529;
+}
+
+svg:not(:root) {
+  overflow-clip-margin: content-box;
+  overflow: hidden;
+}
+
+section{
+  display: block;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.text-bold{
+  font-weight: bold;
+}
+
+.text-a{
+  font-size: 1.6rem !important;
+  line-height: 1.5;
+  letter-spacing: -0.3px;
+}
+
+.text-black{
+  color: #212529;
+}
+
+.main-01{
+  position: relative;
+  color: #212529;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 400;
+  min-height: 100%;
+  -webkit-font-smoothing: antialiased;
+  padding: 0;
+  margin: 0;
+  outline: none;
+  display: block;
+}
+
+.market-cover{
+  height: 315px;
+  padding-top: 0px;
+  padding-right: 16px;
+  padding-bottom: 0px;
+  padding-left: 16px;
+  outline: none;
+  display: block;
+  unicode-bidi: isolate;
+}
+
+.market-cover{
+  background-color: #FFF1AA;
+}
+
+.market-cover .market-cover01{
+  position: relative;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.market-cover01{
+  padding-top: 50px;
+  max-width: 768px;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+  padding: 0;
+  outline: none;
+  display: block;
+  unicode-bidi: isolate;
+}
+
+.main-title{
+  line-height: 1.5;
+  font-size: 34px;
+  letter-spacing: -0.32;
+  font-weight: 700;
+  padding: 0;
+  margin: 0;
+  outline: none;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  display: block;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+}
+
+.main-title01{
+  display: block;
+  font-size: 1.125rem;
+  word-spacing: -1.5px;
+  letter-spacing: -0.15px;
+  line-height: 135%;
+  margin: 3px 0 0 0;
+}
+
+.market-cover .market-cover01 .main-image{
+  position: absolute;
+  bottom: 0;
+  display: flex;
+}
+
+.main-image{
+  right: 0;
+  height: 315px;
+  width: 416px;
+  padding: 0;
+  margin: 0;
+  outline: none;
+  unicode-bidi: isolate;
+}
+
+.market-cover .market-cover01 .main-image span{
+  box-sizing: border-box;
+  overflow: hidden;
+  width: initial;
+  height: initial;
+  background: none;
+  opacity: 1;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.market-cover .market-cover01 .main-image span img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  box-sizing: border-box;
+  padding: 0;
+  border: none;
+  margin: auto;
+  width: 0;
+  height: 0;
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.main-image span img{
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+
+.main-image .fleamarket-image img{
+  display: block;
+}
+
+.main-image .fleamarket-image{
+  display: block;
+}
+
+ul{
+  list-style-type: disc;
+}
+
+.fleamarket-image{
+  outline: none;
+}
+
+#market-00 .market-01{
+  position: relative;
+  color: #212529;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 400;
+  min-height: 100%;
+  -webkit-font-smoothing: antialiased;
+  padding: 0;
+  margin: 0;
+  outline: none;
+  display: block;
+  unicode-bidi: isolate;
+}
+
+#market-00 .market-02{
+  padding-top: 1.2rem;
+  padding-right: 2rem;
+  padding-bottom: 1.2rem;
+  padding-left: 2rem;
+  box-sizing: border-box;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+  position: relative;
+}
+
+#market-00 .market-03{
+  display: flex;
+  align-items: center;
+  outline: none;
+  unicode-bidi: isolate;
+}
+
+#market-00 .merket-04{
+  display: inline-flex;
+  align-items: center;
+  margin-right: 3.6rem;
+}
+
+#market-00 .light-theme {
+  --seed-static-color-static-black: #000000;
+  --seed-static-color-static-white: #ffffff;
+  --seed-static-color-static-gray-900: #212124;
+  --seed-static-color-static-carrot-50: #fff5f0;
+  --seed-static-color-static-carrot-800: #cc4700;
+  --seed-static-color-static-green-50: #e8faf6;
+  --seed-static-color-static-green-800: #008c72;
+  --seed-static-color-static-yellow-50: #fff7e6;
+  --seed-static-color-static-yellow-800: #ba5e02;
+  --seed-static-color-static-red-50: #fff3f2;
+  --seed-static-color-static-red-800: #e81300;
+  --seed-static-color-static-blue-50: #ebf7fa;
+  --seed-static-color-static-blue-800: #0a85b5;
+  --seed-static-color-static-black-alpha-200: #00000033;
+  --seed-static-color-static-black-alpha-500: #00000080;
+  --seed-static-color-static-white-alpha-50: #ffffff0d;
+  --seed-static-color-static-white-alpha-200: #ffffff33;
+  --seed-semantic-color-on-primary: var(--seed-static-color-static-white);
+  --seed-semantic-color-overlay-low: var( --seed-static-color-static-black-alpha-200 );
+  --seed-semantic-color-overlay-dim: var( --seed-static-color-static-black-alpha-500 );
+  --seed-semantic-color-on-primary-overlay-50: var( --seed-static-color-static-white-alpha-50 );
+  --seed-semantic-color-on-primary-overlay-200: var( --seed-static-color-static-white-alpha-200 );
+  --seed-scale-dimension-font-size-10: 10px;
+  --seed-scale-dimension-font-size-25: 11px;
+  --seed-scale-dimension-font-size-50: 12px;
+  --seed-scale-dimension-font-size-75: 13px;
+  --seed-scale-dimension-font-size-100: 14px;
+  --seed-scale-dimension-font-size-150: 15px;
+  --seed-scale-dimension-font-size-200: 16px;
+  --seed-scale-dimension-font-size-300: 18px;
+  --seed-scale-dimension-font-size-400: 20px;
+  --seed-scale-dimension-font-size-500: 24px;
+  --seed-scale-dimension-font-size-600: 26px;
+  --seed-scale-dimension-font-size-700: 32px;
+  --seed-scale-dimension-font-size-800: 34px;
+  --seed-scale-dimension-font-size-900: 42px;
+  --seed-scale-dimension-font-size-1000: 48px;
+  --seed-scale-dimension-font-size-1100: 54px;
+  --seed-scale-dimension-font-size-1200: 60px;
+  --seed-scale-dimension-font-size-1300: 72px;
+  --seed-semantic-typography-h1-font-size: var( --seed-scale-dimension-font-size-1000 );
+  --seed-semantic-typography-h2-font-size: var( --seed-scale-dimension-font-size-900 );
+  --seed-semantic-typography-h3-font-size: var( --seed-scale-dimension-font-size-800 );
+  --seed-semantic-typography-h4-font-size: var( --seed-scale-dimension-font-size-600 );
+  --seed-semantic-typography-title1-bold-font-size: var( --seed-scale-dimension-font-size-500 );
+  --seed-semantic-typography-title1-regular-font-size: var( --seed-scale-dimension-font-size-500 );
+  --seed-semantic-typography-title2-bold-font-size: var( --seed-scale-dimension-font-size-400 );
+  --seed-semantic-typography-title2-regular-font-size: var( --seed-scale-dimension-font-size-400 );
+  --seed-semantic-typography-title3-bold-font-size: var( --seed-scale-dimension-font-size-300 );
+  --seed-semantic-typography-title3-regular-font-size: var( --seed-scale-dimension-font-size-300 );
+  --seed-semantic-typography-subtitle1-bold-font-size: var( --seed-scale-dimension-font-size-200 );
+  --seed-semantic-typography-subtitle1-regular-font-size: var( --seed-scale-dimension-font-size-200 );
+  --seed-semantic-typography-subtitle2-bold-font-size: var( --seed-scale-dimension-font-size-100 );
+  --seed-semantic-typography-subtitle2-regular-font-size: var( --seed-scale-dimension-font-size-100 );
+  --seed-semantic-typography-body-l1-bold-font-size: var( --seed-scale-dimension-font-size-200 );
+  --seed-semantic-typography-body-l1-regular-font-size: var( --seed-scale-dimension-font-size-200 );
+  --seed-semantic-typography-body-l2-bold-font-size: var( --seed-scale-dimension-font-size-100 );
+  --seed-semantic-typography-body-l2-regular-font-size: var( --seed-scale-dimension-font-size-100 );
+  --seed-semantic-typography-body-m1-bold-font-size: var( --seed-scale-dimension-font-size-200 );
+  --seed-semantic-typography-body-m1-regular-font-size: var( --seed-scale-dimension-font-size-200 );
+  --seed-semantic-typography-body-m2-bold-font-size: var( --seed-scale-dimension-font-size-100 );
+  --seed-semantic-typography-body-m2-regular-font-size: var( --seed-scale-dimension-font-size-100 );
+  --seed-semantic-typography-caption1-bold-font-size: var( --seed-scale-dimension-font-size-75 );
+  --seed-semantic-typography-caption1-regular-font-size: var( --seed-scale-dimension-font-size-75 );
+  --seed-semantic-typography-caption2-bold-font-size: var( --seed-scale-dimension-font-size-50 );
+  --seed-semantic-typography-caption2-regular-font-size: var( --seed-scale-dimension-font-size-50 );
+  --seed-semantic-typography-label1-bold-font-size: var( --seed-scale-dimension-font-size-300 );
+  --seed-semantic-typography-label1-regular-font-size: var( --seed-scale-dimension-font-size-300 );
+  --seed-semantic-typography-label2-bold-font-size: var( --seed-scale-dimension-font-size-200 );
+  --seed-semantic-typography-label2-regular-font-size: var( --seed-scale-dimension-font-size-200 );
+  --seed-semantic-typography-label3-bold-font-size: var( --seed-scale-dimension-font-size-100 );
+  --seed-semantic-typography-label3-regular-font-size: var( --seed-scale-dimension-font-size-100 );
+  --seed-semantic-typography-label4-bold-font-size: var( --seed-scale-dimension-font-size-50 );
+  --seed-semantic-typography-label4-regular-font-size: var( --seed-scale-dimension-font-size-50 );
+  --seed-semantic-typography-label5-bold-font-size: var( --seed-scale-dimension-font-size-25 );
+  --seed-semantic-typography-label5-regular-font-size: var( --seed-scale-dimension-font-size-25 );
+  --seed-semantic-typography-label6-bold-font-size: var( --seed-scale-dimension-font-size-10 );
+  --seed-semantic-typography-label6-regular-font-size: var( --seed-scale-dimension-font-size-10 );
+  --seed-static-font-weight-regular: normal;
+  --seed-static-font-weight-bold: bold;
+  --seed-semantic-typography-h1-font-weight: var( --seed-static-font-weight-bold );
+  --seed-semantic-typography-h2-font-weight: var( --seed-static-font-weight-bold );
+  --seed-semantic-typography-h3-font-weight: var( --seed-static-font-weight-bold );
+  --seed-semantic-typography-h4-font-weight: var( --seed-static-font-weight-bold );
+  --seed-semantic-typography-title1-bold-font-weight: var( --seed-static-font-weight-bold );
+  --seed-semantic-typography-title1-regular-font-weight: var( --seed-static-font-weight-regular );
+  --seed-semantic-typography-title2-bold-font-weight: var( --seed-static-font-weight-bold );
+  --seed-semantic-typography-title2-regular-font-weight: var( --seed-static-font-weight-regular );
+  --seed-semantic-typography-title3-bold-font-weight: var( --seed-static-font-weight-bold );
+  --seed-semantic-typography-title3-regular-font-weight: var( --seed-static-font-weight-regular );
+  --seed-semantic-typography-subtitle1-bold-font-weight: var( --seed-static-font-weight-bold );
+  --seed-semantic-typography-subtitle1-regular-font-weight: var( --seed-static-font-weight-regular );
+  --seed-semantic-typography-subtitle2-bold-font-weight: var( --seed-static-font-weight-bold );
+  --seed-semantic-typography-subtitle2-regular-font-weight: var( --seed-static-font-weight-regular );
+  --seed-semantic-typography-body-l1-bold-font-weight: var( --seed-static-font-weight-bold );
+  --seed-semantic-typography-body-l1-regular-font-weight: var( --seed-static-font-weight-regular );
+  --seed-semantic-typography-body-l2-bold-font-weight: var( --seed-static-font-weight-bold );
+  --seed-semantic-typography-body-l2-regular-font-weight: var( --seed-static-font-weight-regular );
+  --seed-semantic-typography-body-m1-bold-font-weight: var( --seed-static-font-weight-bold );
+  --seed-semantic-typography-body-m1-regular-font-weight: var( --seed-static-font-weight-regular );
+  --seed-semantic-typography-body-m2-bold-font-weight: var( --seed-static-font-weight-bold );
+  --seed-semantic-typography-body-m2-regular-font-weight: var( --seed-static-font-weight-regular );
+  --seed-semantic-typography-caption1-bold-font-weight: var( --seed-static-font-weight-bold );
+  --seed-semantic-typography-caption1-regular-font-weight: var( --seed-static-font-weight-regular );
+  --seed-semantic-typography-caption2-bold-font-weight: var( --seed-static-font-weight-bold );
+  --seed-semantic-typography-caption2-regular-font-weight: var( --seed-static-font-weight-regular );
+  --seed-semantic-typography-label1-bold-font-weight: var( --seed-static-font-weight-bold );
+  --seed-semantic-typography-label1-regular-font-weight: var( --seed-static-font-weight-regular );
+  --seed-semantic-typography-label2-bold-font-weight: var( --seed-static-font-weight-bold );
+  --seed-semantic-typography-label2-regular-font-weight: var( --seed-static-font-weight-regular );
+  --seed-semantic-typography-label3-bold-font-weight: var( --seed-static-font-weight-bold );
+  --seed-semantic-typography-label3-regular-font-weight: var( --seed-static-font-weight-regular );
+  --seed-semantic-typography-label4-bold-font-weight: var( --seed-static-font-weight-bold );
+  --seed-semantic-typography-label4-regular-font-weight: var( --seed-static-font-weight-regular );
+  --seed-semantic-typography-label5-bold-font-weight: var( --seed-static-font-weight-bold );
+  --seed-semantic-typography-label5-regular-font-weight: var( --seed-static-font-weight-regular );
+  --seed-semantic-typography-label6-bold-font-weight: var( --seed-static-font-weight-bold );
+  --seed-semantic-typography-label6-regular-font-weight: var( --seed-static-font-weight-regular );
+  --seed-static-line-height-static-small: 135%;
+  --seed-static-line-height-static-medium: 150%;
+  --seed-static-line-height-static-large: 162%;
+  --seed-semantic-typography-h1-line-height: var( --seed-static-line-height-static-small );
+  --seed-semantic-typography-h2-line-height: var( --seed-static-line-height-static-small );
+  --seed-semantic-typography-h3-line-height: var( --seed-static-line-height-static-small );
+  --seed-semantic-typography-h4-line-height: var( --seed-static-line-height-static-small );
+  --seed-semantic-typography-title1-bold-line-height: var( --seed-static-line-height-static-small );
+  --seed-semantic-typography-title1-regular-line-height: var( --seed-static-line-height-static-small );
+  --seed-semantic-typography-title2-bold-line-height: var( --seed-static-line-height-static-small );
+  --seed-semantic-typography-title2-regular-line-height: var( --seed-static-line-height-static-small );
+  --seed-semantic-typography-title3-bold-line-height: var( --seed-static-line-height-static-small );
+  --seed-semantic-typography-title3-regular-line-height: var( --seed-static-line-height-static-small );
+  --seed-semantic-typography-subtitle1-bold-line-height: var( --seed-static-line-height-static-small );
+  --seed-semantic-typography-subtitle1-regular-line-height: var( --seed-static-line-height-static-small );
+  --seed-semantic-typography-subtitle2-bold-line-height: var( --seed-static-line-height-static-small );
+  --seed-semantic-typography-subtitle2-regular-line-height: var( --seed-static-line-height-static-small );
+  --seed-semantic-typography-body-l1-bold-line-height: var( --seed-static-line-height-static-large );
+  --seed-semantic-typography-body-l1-regular-line-height: var( --seed-static-line-height-static-large );
+  --seed-semantic-typography-body-l2-bold-line-height: var( --seed-static-line-height-static-medium );
+  --seed-semantic-typography-body-l2-regular-line-height: var( --seed-static-line-height-static-medium );
+  --seed-semantic-typography-body-m1-bold-line-height: var( --seed-static-line-height-static-small );
+  --seed-semantic-typography-body-m1-regular-line-height: var( --seed-static-line-height-static-small );
+  --seed-semantic-typography-body-m2-bold-line-height: var( --seed-static-line-height-static-small );
+  --seed-semantic-typography-body-m2-regular-line-height: var( --seed-static-line-height-static-small );
+  --seed-semantic-typography-caption1-bold-line-height: var( --seed-static-line-height-static-medium );
+  --seed-semantic-typography-caption1-regular-line-height: var( --seed-static-line-height-static-medium );
+  --seed-semantic-typography-caption2-bold-line-height: var( --seed-static-line-height-static-small );
+  --seed-semantic-typography-caption2-regular-line-height: var( --seed-static-line-height-static-small );
+  --seed-semantic-typography-label1-bold-line-height: var( --seed-static-line-height-static-small );
+  --seed-semantic-typography-label1-regular-line-height: var( --seed-static-line-height-static-small );
+  --seed-semantic-typography-label2-bold-line-height: var( --seed-static-line-height-static-small );
+  --seed-semantic-typography-label2-regular-line-height: var( --seed-static-line-height-static-small );
+  --seed-semantic-typography-label3-bold-line-height: var( --seed-static-line-height-static-small );
+  --seed-semantic-typography-label3-regular-line-height: var( --seed-static-line-height-static-small );
+  --seed-semantic-typography-label4-bold-line-height: var( --seed-static-line-height-static-small );
+  --seed-semantic-typography-label4-regular-line-height: var( --seed-static-line-height-static-small );
+  --seed-semantic-typography-label5-bold-line-height: var( --seed-static-line-height-static-small );
+  --seed-semantic-typography-label5-regular-line-height: var( --seed-static-line-height-static-small );
+  --seed-semantic-typography-label6-bold-line-height: var( --seed-static-line-height-static-small );
+  --seed-semantic-typography-label6-regular-line-height: var( --seed-static-line-height-static-small );
+  --seed-scale-color-gray-00: #ffffff;
+  --seed-scale-color-gray-50: #f7f8fa;
+  --seed-scale-color-gray-100: #f2f3f6;
+  --seed-scale-color-gray-200: #eaebee;
+  --seed-scale-color-gray-300: #dcdee3;
+  --seed-scale-color-gray-400: #d1d3d8;
+  --seed-scale-color-gray-500: #adb1ba;
+  --seed-scale-color-gray-600: #868b94;
+  --seed-scale-color-gray-700: #4d5159;
+  --seed-scale-color-gray-800: #393a40;
+  --seed-scale-color-gray-900: #212124;
+  --seed-scale-color-carrot-50: #fff5f0;
+  --seed-scale-color-carrot-100: #ffe2d2;
+  --seed-scale-color-carrot-200: #ffd2b9;
+  --seed-scale-color-carrot-300: #ffbc97;
+  --seed-scale-color-carrot-400: #ff9e66;
+  --seed-scale-color-carrot-500: #ff6f0f;
+  --seed-scale-color-carrot-600: #fa6616;
+  --seed-scale-color-carrot-700: #f05705;
+  --seed-scale-color-carrot-800: #cc4700;
+  --seed-scale-color-carrot-900: #b44104;
+  --seed-scale-color-carrot-950: #a03a03;
+  --seed-scale-color-blue-50: #ebf7fa;
+  --seed-scale-color-blue-100: #d2edfa;
+  --seed-scale-color-blue-200: #b9e3fa;
+  --seed-scale-color-blue-300: #87d7ff;
+  --seed-scale-color-blue-400: #57c7ff;
+  --seed-scale-color-blue-500: #009ceb;
+  --seed-scale-color-blue-600: #0088cc;
+  --seed-scale-color-blue-700: #0077b2;
+  --seed-scale-color-blue-800: #006199;
+  --seed-scale-color-blue-900: #004c73;
+  --seed-scale-color-blue-950: #003b59;
+  --seed-scale-color-red-50: #fff3f2;
+  --seed-scale-color-red-100: #ffe5e3;
+  --seed-scale-color-red-200: #fcd2cf;
+  --seed-scale-color-red-300: #ffaca6;
+  --seed-scale-color-red-400: #ff7e75;
+  --seed-scale-color-red-500: #ff4133;
+  --seed-scale-color-red-600: #fa2314;
+  --seed-scale-color-red-700: #e81607;
+  --seed-scale-color-red-800: #a62014;
+  --seed-scale-color-red-900: #910c00;
+  --seed-scale-color-red-950: #821006;
+  --seed-scale-color-green-50: #e8faf6;
+  --seed-scale-color-green-100: #c7f2e4;
+  --seed-scale-color-green-200: #96ebc3;
+  --seed-scale-color-green-300: #6adeac;
+  --seed-scale-color-green-400: #30c795;
+  --seed-scale-color-green-500: #1aa174;
+  --seed-scale-color-green-600: #128c6e;
+  --seed-scale-color-green-700: #077a5e;
+  --seed-scale-color-green-800: #06614a;
+  --seed-scale-color-green-900: #004f40;
+  --seed-scale-color-green-950: #004034;
+  --seed-scale-color-yellow-50: #fff7e6;
+  --seed-scale-color-yellow-100: #ffe3ba;
+  --seed-scale-color-yellow-200: #facc87;
+  --seed-scale-color-yellow-300: #f7be68;
+  --seed-scale-color-yellow-400: #dea651;
+  --seed-scale-color-yellow-500: #c27f29;
+  --seed-scale-color-yellow-600: #a66c21;
+  --seed-scale-color-yellow-700: #805217;
+  --seed-scale-color-yellow-800: #6b4717;
+  --seed-scale-color-yellow-900: #593d17;
+  --seed-scale-color-yellow-950: #4d361a;
+  --seed-scale-color-pink-50: #fff5f5;
+  --seed-scale-color-pink-100: #ffdddb;
+  --seed-scale-color-pink-200: #ffbfc5;
+  --seed-scale-color-pink-300: #ffadb4;
+  --seed-scale-color-pink-400: #ff8a9d;
+  --seed-scale-color-pink-500: #f0657c;
+  --seed-scale-color-pink-600: #db4b6a;
+  --seed-scale-color-pink-700: #bd2b5c;
+  --seed-scale-color-pink-800: #991c45;
+  --seed-scale-color-pink-900: #800d3d;
+  --seed-scale-color-pink-950: #660a30;
+  --seed-scale-color-purple-50: #f6f4fe;
+  --seed-scale-color-purple-100: #e3dafe;
+  --seed-scale-color-purple-200: #d5c7ff;
+  --seed-scale-color-purple-300: #cfbfff;
+  --seed-scale-color-purple-400: #b69eff;
+  --seed-scale-color-purple-500: #9675fa;
+  --seed-scale-color-purple-600: #8361e8;
+  --seed-scale-color-purple-700: #6748c7;
+  --seed-scale-color-purple-800: #4f3699;
+  --seed-scale-color-purple-900: #3f2687;
+  --seed-scale-color-purple-950: #331e70;
+  --seed-scale-color-gray-alpha-50: #0000000d;
+  --seed-scale-color-gray-alpha-100: #0000001a;
+  --seed-scale-color-gray-alpha-200: #00000033;
+  --seed-scale-color-gray-alpha-500: #00000080;
+  --seed-scale-color-carrot-alpha-50: #ff6f0f0d;
+  --seed-scale-color-carrot-alpha-100: #ff6f0f24;
+  --seed-scale-color-carrot-alpha-200: #ff6f0f33;
+  --seed-scale-color-blue-alpha-50: #009ceb0d;
+  --seed-scale-color-blue-alpha-100: #009ceb1a;
+  --seed-scale-color-blue-alpha-200: #009ceb33;
+  --seed-scale-color-red-alpha-50: #ff41330d;
+  --seed-scale-color-red-alpha-100: #ff41331a;
+  --seed-scale-color-red-alpha-200: #ff413333;
+  --seed-scale-color-yellow-alpha-50: #f7be6814;
+  --seed-scale-color-yellow-alpha-100: #f7be6824;
+  --seed-scale-color-yellow-alpha-200: #f7be683d;
+  --seed-scale-color-green-alpha-50: #1aa1740d;
+  --seed-scale-color-green-alpha-100: #1aa17424;
+  --seed-scale-color-green-alpha-200: #1aa17433;
+  --seed-semantic-color-primary: var(--seed-scale-color-carrot-500);
+  --seed-semantic-color-primary-low: var(--seed-scale-color-carrot-alpha-100);
+  --seed-semantic-color-secondary: var(--seed-scale-color-gray-900);
+  --seed-semantic-color-secondary-low: var(--seed-scale-color-gray-alpha-50);
+  --seed-semantic-color-success: var(--seed-scale-color-green-500);
+  --seed-semantic-color-success-low: var(--seed-scale-color-green-alpha-50);
+  --seed-semantic-color-warning: var(--seed-scale-color-yellow-400);
+  --seed-semantic-color-warning-low: var(--seed-scale-color-yellow-alpha-100);
+  --seed-semantic-color-danger: var(--seed-scale-color-red-600);
+  --seed-semantic-color-danger-low: var(--seed-scale-color-red-alpha-50);
+  --seed-semantic-color-paper-sheet: var(--seed-scale-color-gray-00);
+  --seed-semantic-color-paper-dialog: var(--seed-scale-color-gray-00);
+  --seed-semantic-color-paper-floating: var(--seed-scale-color-gray-00);
+  --seed-semantic-color-paper-contents: var(--seed-scale-color-gray-50);
+  --seed-semantic-color-paper-default: var(--seed-scale-color-gray-00);
+  --seed-semantic-color-paper-background: var(--seed-scale-color-gray-100);
+  --seed-semantic-color-paper-accent: var(--seed-scale-color-carrot-50);
+  --seed-semantic-color-primary-hover: var(--seed-scale-color-carrot-400);
+  --seed-semantic-color-primary-pressed: var(--seed-scale-color-carrot-400);
+  --seed-semantic-color-primary-low-hover: var( --seed-scale-color-carrot-alpha-200 );
+  --seed-semantic-color-primary-low-active: var( --seed-scale-color-carrot-alpha-200 );
+  --seed-semantic-color-primary-low-pressed: var( --seed-scale-color-carrot-alpha-200 );
+  --seed-semantic-color-gray-hover: var(--seed-scale-color-gray-100);
+  --seed-semantic-color-gray-pressed: var(--seed-scale-color-gray-100);
+  --seed-semantic-color-on-primary-low-overlay-50: var( --seed-scale-color-carrot-alpha-50 );
+  --seed-semantic-color-on-primary-low-overlay-100: var( --seed-scale-color-carrot-alpha-100 );
+  --seed-semantic-color-on-primary-low-overlay-200: var( --seed-scale-color-carrot-alpha-200 );
+  --seed-semantic-color-on-gray-overlay-50: var( --seed-scale-color-gray-alpha-50 );
+  --seed-semantic-color-on-gray-overlay-100: var( --seed-scale-color-gray-alpha-100 );
+  --seed-semantic-color-text-selection: var(--seed-scale-color-carrot-50);
+  --seed-semantic-color-divider-1: var(--seed-scale-color-gray-alpha-50);
+  --seed-semantic-color-divider-2: var(--seed-scale-color-gray-200);
+  --seed-semantic-color-divider-3: var(--seed-scale-color-gray-300);
+  --seed-semantic-color-accent: var(--seed-scale-color-blue-500);
+  --seed-semantic-color-ink-text: var(--seed-scale-color-gray-900);
+  --seed-semantic-color-ink-text-low: var(--seed-scale-color-gray-600);
+  --seed-semantic-color-gray-active: var(--seed-scale-color-gray-700)
+}
+
+#market-00 .market-05{
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  outline: none;
+  unicode-bidi: isolate;
+}
+
+#market-00 .market-06{
+  display: inline-block;
+  outline: none;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+  unicode-bidi: isolate;
+}
+
+#market-00 .market-07{
+  list-style-position: initial;
+  list-style-image: initial;
+  list-style-type: none;
+}
+
+#market-00 .market-08{
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  text-align: -webkit-match-parent;
+  unicode-bidi: isolate;
+  user-select: none;
+  outline: none;
+}
+
+#market-00 .market-09 #market-00 .market-10 #market-00 .market-11{
+  line-height: 1.32;
+  font-size: 1.8rem;
+  letter-spacing: -2%;
+}
+
+#market-00 .market-09{
+  font-weight: 700;
+  line-height: 1.4;
+  font-size: 1.4rem;
+  color: var(--seed-scale-color-gray-700);
+  font-style: normal;
+  margin-right: 3rem;
+}
+
+#market-00 .market-10{
+  text-decoration-line: none;
+  text-decoration-color: initial;
+  text-decoration-style: initial;
+  text-decoration-color: initial;
+}
+
+#market-00 .market-11{
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+#market-00 .market-12{
+  color: var(--seed-scale-color-carrot-500);
+}
+
+#market-00 .market-13{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  outline: none;
+  unicode-bidi: isolate;
+}
+
+#market-00 .market-14{
+  margin-right: 1.6rem;
+}
+
+#market-00 .market-14>svg>path{
+  fill: var(--seed-scale-color-gray-900);
+  padding: 0;
+  margin: 0;
+  outline: none;
+}
+
+#market-00 .market-15{
+  appearance: none;
+  border: 0;
+  background: none;
+  padding: 0;
+}
+
+:not(svg) {
+  transform-origin: 0px 0px;
+}
+
+#market-00 .market-16{
+  display: flex;
+  align-items: center;
+}
+
+#market-00 .market-17{
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+#market-00 .market-18{
+  display: none;
+  padding: 0;
+  margin: 0;
+  outline: none;
+  unicode-bidi: isolate;
+}
+
+#market-00 .market-19{
+  line-height: 1.4;
+  font-size: 1.4rem;
+  background-color: var(--seed-scale-color-gray-100);
+  box-sizing: border-box;
+  height: 4rem;
+  padding-top: 0.9rem;
+  padding-right: 1.2rem;
+  padding-bottom: 0.9rem;
+  padding-left: 1.2rem;
+  border: none;
+  border-radius: 0.6rem;
+  width: 100%;
+  color: var(--seed-scale-color-gray-900);
+  outline: none;
+}
+
+#market-00 .market-20{
+  appearance: none;
+  border: 0;
+  background: none;
+  padding: 0;
+}
+
+#market-00 .market-21{
+  display: flex;
+  align-items: center;
+}
+
+#market-00 .market-22{
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+#market-00 .market-23{
+  transition-behavior: normal;
+  transition-duration: 0.15s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+  transition-property: background-color;
+  will-change: background-color;
+}
+
+#market-00 .market-23{
+  background: none;
+  appearance: none;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  white-space-collapse: collapse;
+  text-wrap: nowrap;
+  box-sizing: border-box;
+}
+
+#market-00 .market-24{
+  text-decoration: none;
+}
+
+#market-00 .market-25{
+  color: var(--seed-scale-color-gray-900);
+  background-color: transparent;
+  border: 1px solid var(--seed-scale-color-gray-400);
+}
+
+#market-00 .market-26{
+  width: fit-content;
+  min-height: 3.6rem;
+  padding-top: 0.8rem;
+  padding-right: 1.4rem;
+  padding-bottom: 1.4rem;
+  padding-left: 1.4rem;
+  border-radius: 0.4rem;
+}
+
+#market-00 .market-27{
+  display: none;
+  font-weight: 700;
+  line-height: 1.36;
+  font-size: 1.6rem;
+}
+
+#market-00 .market-28{
+  border-radius: 6px;
+  box-sizing: border-box;
+  color: #212529;
+  text-align: center;
+  font-weight: 700;
+  margin-top: 1.6rem;
+  margin-right: 0px;
+  margin-bottom: 1.6rem;
+  margin-left: 0px;
+  text-decoration: none;
+  font-family: inherit;
+  outline: inherit;
+  text-rendering: auto;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  padding-block: 1px;
+  padding-inline: 6px;
+}
+
+#market-00 .market-29{
+  background-color: var(--seed-semantic-color-paper-default);
+  color: var(--seed-scale-color-gray-900);
+  border-top: 1px solid var(--seed-scale-color-gray-200);
+  padding-top: 0px;
+  padding-right: 1.6rem;
+  padding-bottom: 0px;
+  padding-left: 1.6rem;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 100vw;
+}
+
+#market-00 .market-30{
+  display: flex;
+  flex-direction: column;
+}
+
+#market-00 .market-31{
+  max-width: 76.8rem;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+  padding: 0;
+  outline: none;
+}
+
+#market-00 .market-32{
+  padding-top: 4.8rem;
+  padding-right: 0px;
+  padding-bottom: 4.8rem;
+  padding-left: 0px;
+  display: block;
+  margin: 0;
+  outline: none;
+  unicode-bidi: isolate;
+}
+
+#market-00 .market-33{
+  display: flex;
+  max-width: 76.8rem;
+  padding: 0;
+  margin: 0;
+  outline: none;
+  unicode-bidi: isolate;
+}
+
+#market-00 .market-34{
+  display: flex;
+  flex-direction: column;
+  padding-inline-start: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  width: 33%;
+  padding: 0;
+  margin: 0;
+  outline: none;
+  list-style-type: disc;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+}
+
+#market-00 .market-34 .market-35:not(:last-child){
+  margin-bottom: 1.6rem;
+}
+
+#market-00 .market-35{
+  width: fit-content;
+  list-style: none;
+  margin-top: 1.6rem;
+  margin-right: 1.6rem;
+  margin-left: 1.6rem;
+  padding: 0;
+  outline: none;
+  display: list-item;
+  text-align: -webkit-match-parent;
+  unicode-bidi: isolate;
+}
+
+#market-00 .market-33 .market-36{
+  color: var(--seed-scale-color-gray-900);
+}
+
+#market-00 .market-36{
+  text-decoration: none;
+  outline: 0;
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+
+#market-00 .market-37{
+  display: grid;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-top: 2.4rem;
+  padding-right: 0px;
+  padding-bottom: 10rem;
+  padding-left: 0px;
+  border-top: 1px var(--seed-scale-color-gray-200);
+  margin: 0;
+  outline: none;
+  unicode-bidi: isolate;
+}
+
+#market-00 .market-38{
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  display: block;
+  padding: 0;
+  margin: 0;
+  outline: none;
+  unicode-bidi: isolate;
+}
+
+#market-00 .market-39{
+  margin-bottom: 1.6rem;
+  flex-wrap: wrap;
+  color: var(--seed-scale-color-gray-600);
+  display: block;
+  padding: 0;
+  margin: 0;
+  outline: none;
+  unicode-bidi: isolate;
+}
+
+#market-00 .market-40{
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  outline: none;
+  unicode-bidi: isolate;
+}
+
+#market-00 .market-41{
+  font-style: normal;
+  padding: 0;
+  margin: 0;
+  outline: none;
+  display: block;
+  unicode-bidi: isolate;
+}
