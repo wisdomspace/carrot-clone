@@ -892,27 +892,27 @@ ul{
 #market-00 .market-05{
   display: flex;
   align-items: center;
-  padding: 0;
-  margin: 0;
+  width: 100%;
+  padding-top: 0;
+  padding-right: 4px;
+  padding-bottom: 0;
+  padding-left: 40px;
+  margin-left: 300px;
   outline: none;
-  unicode-bidi: isolate;
 }
 
 #market-00 .market-06{
   display: inline-block;
-  outline: none;
   margin-block-start: 1em;
   margin-block-end: 1em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   padding-inline-start: 40px;
-  unicode-bidi: isolate;
 }
 
 #market-00 .market-07{
-  list-style-position: initial;
-  list-style-image: initial;
-  list-style-type: none;
+  list-style: none;
+
 }
 
 #market-00 .market-08{
@@ -927,17 +927,15 @@ ul{
 
 #market-00 .market-09 #market-00 .market-10 #market-00 .market-11{
   line-height: 1.32;
-  font-size: 1.8rem;
-  letter-spacing: -2%;
+  font-size: 18px;
 }
 
 #market-00 .market-09{
   font-weight: 700;
-  line-height: 1.4;
-  font-size: 1.4rem;
   color: var(--seed-scale-color-gray-700);
   font-style: normal;
-  margin-right: 3rem;
+  margin-right: 20px;
+  font-size: 18px;
 }
 
 #market-00 .market-10{
