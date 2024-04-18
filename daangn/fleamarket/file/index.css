@@ -1304,11 +1304,12 @@ ul{
 }
 
 #market-00 .market-53{
+  color: var(--seed-scale-color-gray-600);
   display: flex;
-  width: 100px;
-  padding: 8px;
-  border-radius: 4px;
-  background-color: 0.15s ease 0s;
+  align-items: center;
+  padding: 6px;
+  border-radius: 2px;
+  cursor: pointer;
 }
 
 #market-00 .market-54{
