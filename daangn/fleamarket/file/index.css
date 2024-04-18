@@ -71,11 +71,15 @@ a:-webkit-any-link {
 }
 
 .ahnabada-title{
-  padding: 0;
-  margin: 0;
-  outline: none;
-  display: block;
-  unicode-bidi: isolate;
+  font-size: 16px;
+  letter-spacing: -0.02px;
+  color: #212529;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin-bottom: 4px;
+  line-height: 15px;
+  font-weight: normal;
 }
 
 .ahnabada-price{
@@ -151,7 +155,7 @@ footer{
   padding: 0;
   margin: 0;
   outline: none;
-  unicode-bidi: isolate;
+  display: block;
 }
 
 .fleamarket-list .ahnabada{
@@ -238,19 +242,18 @@ footer{
 
 .fleamarket-list .fleamarket-list-title{
   font-size: 32px;
-  line-height: 43.2px;
+  line-height: 43px;
 }
 
 .fleamarket-list-title{
   font-weight: 700;
-  padding: 0;
+  padding-top: 50px;
   margin: 0;
   outline: none;
-  margin-block-start: 0.83em;
-  margin-block-end: 0.83em;
+  margin-block-start: 0.8px;
+  margin-block-end: 0.8px;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
-  unicode-bidi: isolate;
 }
 
 .input{
@@ -378,7 +381,7 @@ section{
 }
 
 .text-a{
-  font-size: 1.6rem !important;
+  font-size: 16px !important;
   line-height: 1.5;
   letter-spacing: -0.3px;
 }
@@ -1267,7 +1270,11 @@ ul{
 }
 
 #market-00 .market-48{
-  margin: 0 4px;
+  font-size: 13px;
+  word-spacing: -1px;
+  letter-spacing: -0.1px;
+  line-height: 19.5px;
+  color: #868b94;
 }
 
 #market-00 .market-49{
@@ -1305,4 +1312,37 @@ ul{
   padding: 8px;
   border-radius: 4px;
   background-color: 0.15s ease 0s;
+}
+
+#market-00 .market-54{
+  flex-wrap: wrap;
+  display: flex;
+  grid-column: 1 / 4;
+  padding: 0;
+  margin: 0;
+  outline: none;
+}
+
+#market-00 .market-55:not(:last-child){
+  margin-right: 16px;
+}
+
+#market-00 .market-55{
+  line-height: 15px;
+  font-size: 12px;
+  font-weight: 700;
+  white-space: nowrap;
+  color: #868b94;
+  padding: 0;
+  margin: 0;
+  outline: none;
+}
+
+#market-00 .market-56{
+  text-decoration: nono;
+  outline: 0;
+}
+
+#market-00 .market-57{
+  color: var(--seed-scale-color-gray-700);
 }
