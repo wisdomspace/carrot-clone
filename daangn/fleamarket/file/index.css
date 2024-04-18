@@ -1195,7 +1195,7 @@ ul{
   font-size: 13px;
   word-spacing: -1px;
   letter-spacing: -0.1px;
-  line-height: 19.5px;
+  line-height: 19px;
   color: #868b94;
 }
 
@@ -1270,11 +1270,8 @@ ul{
 }
 
 #market-00 .market-48{
-  font-size: 13px;
-  word-spacing: -1px;
-  letter-spacing: -0.1px;
-  line-height: 19.5px;
-  color: #868b94;
+  margin: 0 0.4rem;
+  padding: 0;
 }
 
 #market-00 .market-49{
