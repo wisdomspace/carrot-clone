@@ -985,7 +985,6 @@ ul{
   border: solid 1px #d1d3d8;
   border-radius: 4px 4px 4px 4px;
   background-color: white;
-  -webkit-transition: color,background-color 0.15s ease 0s;
   margin: 0px 0px 0px -720px;
 }
 
