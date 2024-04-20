@@ -327,7 +327,7 @@ html, body, #next, .all {
   background-color: #4d5159;
   color: white;
   font-size: 0.875rem;
-  padding: 11px 16px;
+  padding: 8px 16px 11px 16px;
   border-radius: 100px;
 }
 
@@ -338,7 +338,7 @@ html, body, #next, .all {
   background-color: #ffffff;
   color: #000000;
   font-size: 0.875rem;
-  padding: 11px 16px;
+  padding: 8px 16px 11px 16px;
   border-radius: 100px;
   border: 1px #eaebee solid;
   -webkit-transition: background-color 0.15s ease 0s;
